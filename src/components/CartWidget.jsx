@@ -1,6 +1,7 @@
+
 const CartWidget = () => {
   return (
-    <div>CartWidget</div>
+    <div>CART<img src="" /></div>
   )
 }
 

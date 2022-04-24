@@ -1,4 +1,4 @@
-const Saludo = (props) => {
+{/*const Saludo = (props) => {
     return (
         <>
             < h1 className="text-3xl">Mi primer componente</h1>
@@ -10,5 +10,5 @@ const Saludo = (props) => {
     )
 }
  
-export default Saludo
+export default Saludo*/}
 

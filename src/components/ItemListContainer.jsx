@@ -1,6 +1,6 @@
 const ItemListContainer = ({greeting}) => {
   return (
-    <div>{greeting}, Bienvenido a este Ecommerce sobre el Hobby del collecionismo de Autos a Escala </div>
+    <div>{greeting}, Bienvenido a este Ecommerce sobre el Hobby del coleccionismo de Autos a Escala </div>
   )
 }
 
