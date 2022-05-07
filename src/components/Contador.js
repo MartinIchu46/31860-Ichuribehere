@@ -1,8 +1,20 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 const Contador = () => {
     
    const [suma, setSuma] = useState(0)
+
+   useEffect( ()=> {
+    console.log('Efecto');
+})
+
+   useEffect( ()=> {
+       console.log('Efecto en el mounting');
+   }, [])
+   
+   useEffect( ()=> {
+    console.log('Efecto en cambio en suma');
+}, [suma])
 
    const onClickHandler = ()=> {console.log('click')
    setSuma( suma + 1)
