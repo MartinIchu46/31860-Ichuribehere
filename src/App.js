@@ -7,6 +7,8 @@ import CartWidget from './components/CartWidget';
 import ItemListContainer from './components/ItemListContainer';
 import Card from './components/Card';
 import Contador from './components/Contador';
+import DogsContainer from './components/DogsContainer';
+
 
 function App() {
 
@@ -23,12 +25,15 @@ function App() {
   return (
     <>
     <NavBar/>
-    <ItemListContainer greeting='Hola'></ItemListContainer>
+    {/*<ItemListContainer greeting='Hola'></ItemListContainer>
     <Saludo name='Juan' age='32' action={miFuncion}/>
     <Saludo name='Ana' age='27'/>
     <Card title='Mi titulo' otroComponente={Saludo}></Card>
-    
+  
     <Contador></Contador>
+  */}
+    
+    <DogsContainer></DogsContainer>
 
     </>
     
