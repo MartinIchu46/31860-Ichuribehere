@@ -25,15 +25,16 @@ function App() {
   return (
     <>
     <NavBar/>
-    {/*<ItemListContainer greeting='Hola'></ItemListContainer>
-    <Saludo name='Juan' age='32' action={miFuncion}/>
+    <ItemListContainer greeting='Hola'></ItemListContainer>
+    {/*<Saludo name='Juan' age='32' action={miFuncion}/>
     <Saludo name='Ana' age='27'/>
     <Card title='Mi titulo' otroComponente={Saludo}></Card>
   
     <Contador></Contador>
+     <DogsContainer></DogsContainer>
   */}
     
-    <DogsContainer></DogsContainer>
+    
 
     </>
     

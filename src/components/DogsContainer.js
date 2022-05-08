@@ -1,4 +1,4 @@
-import { list } from "postcss";
+
 import { useEffect, useState } from "react";
 import {dogs as dogsData} from "../data/dogs";
 import DogCard from "./DogCard";
@@ -13,7 +13,7 @@ const DogsContainer = () => {
     const getDogs = new Promise( (resolve, reject)=>{
         setTimeout(() =>{
             resolve(dogsData)
-        },1000)
+        },2000)
 
         
     })
